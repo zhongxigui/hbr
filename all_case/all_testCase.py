@@ -40,4 +40,4 @@ if __name__=="__main__":
     runner.run(allCase())
     # 关闭文件，否则会无法生成文件
     report_set.close()
-    smtp.smtp_mail('qq', '578740769@qq.com', '36694640@qq.com')
+    smtpMethod.smtp_mail('qq', '578740769@qq.com', '36694640@qq.com')

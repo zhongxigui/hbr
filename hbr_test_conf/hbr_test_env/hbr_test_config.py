@@ -46,22 +46,24 @@ login['验证码确定id']='com.zhaoshang800.partner:id/check_sure'
 '''底部导航'''
 global tabbar
 tabbar = {}
-tabbar['首页text']='首页'
-tabbar['业务text']='业务'
-tabbar['网店text']='网店'
-tabbar['圈子text']='圈子'
-tabbar['我的text']='我的'
+tabbar['首页坐标']=[(0,1782),(216,1906)]
+tabbar['业务坐标']=[(216,1782),(432,1906)]
+tabbar['网店坐标']=[(432,1782),(648,1906)]
+tabbar['圈子坐标']=[(648,1782),(864,1906)]
+tabbar['我的坐标']=[(864,1782),(1080,1906)]
 
 
 '''首页界面'''
 global home
 home = {}
 home['搜索栏id']='com.zhaoshang800.partner:id/home_search'
+home['通知公告xpath']='通知公告'
 
 
 '''业务界面'''
 global business
 business={}
+business['添加盘源xpath']='添加盘源'
 business['返回id']='com.zhaoshang800.partner:id/view_iv_back'
 business['性别id']='com.zhaoshang800.partner:id/rb_man'
 business['提交id']='com.zhaoshang800.partner:id/tv_submit'
@@ -73,3 +75,7 @@ my['设置text']='设置'
 my['退出登录text']='退出登录'
 my['确认退出id']='com.zhaoshang800.partner:id/tv_new_dialog_right'
 
+
+'''路径'''
+way=os.path.abspath(os.path.join(os.getcwd(), "../.."))
+print(way)

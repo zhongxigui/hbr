@@ -1,4 +1,3 @@
-from selenium import webdriver
 import time
 import random
 import os
@@ -9,12 +8,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import xlrd #读取
 from xlutils.copy import copy #复制写入
+from hbr_test_conf.hbr_test_env.hbr_test_config import *
 import smtplib
 from email.mime.text import  MIMEText
 from email.mime.multipart import MIMEMultipart
 
 class startMethod(object):
-    '''封装ID获取元素'''
+    '''ID获取元素'''
     def action_Id(self,id,text):
         if text=='obtain':
             pro = '获取元素：'
@@ -29,6 +29,44 @@ class startMethod(object):
                 pro = '输入内容为：'
                 self.logger.info(u'>>>定位控件%s,%s%s' % (id,pro,text))
                 return self.driver.find_element_by_id(id).set_text(text)
+
+    '''xpath获取元素'''
+    # def action_Xpath(self,xpath,text):
+    #     if text=='obtain':
+    #         pro = '获取元素：'
+    #         self.logger.info(u'>>>%s%s' % (pro, xpath))
+    #         return self.driver.find_element_by_xpath("//android.widget.TextView[@text='xpath']")
+    #     else:
+    #         if text=='click':
+    #             pro = '点击控件：'
+    #             self.logger.info(u'>>>%s%s' % (pro, xpath))
+    #             return self.driver.find_element_by_xpath("//android.widget.TextView[@text='xpath']").click()
+    #         else:
+    #             pro = '输入内容为：'
+    #             self.logger.info(u'>>>定位控件%s,%s%s' % (xpath,pro,text))
+    #             return self.driver.find_element_by_xpath("//android.widget.TextView[@text='xpath']").set_text(text)
+
+    '''登录方法'''
+    def landing(self,usemame,password,verification):
+        self.driver.find_element_by_id(login['账号id']).set_text(usemame)
+        self.logger.info('输入账号为{}'.format(usemame))
+        self.driver.find_element_by_id(login['密码id']).set_text(password)
+        self.logger.info('输入密码为{}'.format(password))
+        self.driver.find_element_by_id(login['登录按钮id']).click()
+        self.driver.find_element_by_id(login['获取验证码id']).click()
+        self.driver.find_element_by_id(login['输入验证码id']).set_text(verification)
+        self.driver.find_element_by_id(login['验证码确定id']).click()
+
+    '''退出登录'''
+    def logout(self):
+        self.driver.tap([(864, 1782), (1080, 1906)], 100)
+        #self.driver.find_element_by_xpath("//android.widget.TextView[@text='我的']").click()  底部导航不行使用id xpath定位 暂时用tap
+        titleMethod.toachSweip(self, 0.5, 0.9, 0.5, 0.2)
+        self.driver.find_element_by_xpath("//android.widget.TextView[@text='退出登录']").click()
+        startMethod.action_Id(self, my['确认退出id'], 'click')
+
+
+
 
 
 
@@ -61,14 +99,15 @@ class titleMethod(object):
                     continue
         return self.driver.find_element_by_xpath(xpathCode)
 
-    '''封装一个滑动toach的方法'''
+    '''一个滑动toach的方法'''
     def toachSweip(self,x,y,x1,y1):
         action = TouchAction(self.driver)
         action.press(x=x, y=y).wait(ms=1000).move_to(x=x1, y=y1).release()
         action.perform()
 
 
-class smtp(object):
+class smtpMethod(object):
+    '''发送邮件'''
     @staticmethod
     def smtp_mail(choocemail, sendmail,receivemail):  # choocemail选择163还是qq,sendmail发件人，receivemail收件人
         path = r"C:\\Users\\57874\\Desktop\\hbr\\hbr_test_result\\"

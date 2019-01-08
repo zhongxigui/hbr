@@ -9,6 +9,16 @@ from email.mime.text import  MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
+def setUpModule():
+    os.system('start startAppiumServer.bat')  # 启动appium服务
+    time.sleep(8)  # 等待appium服务启动完毕
+    print("test module star >>>>>>>>>>>>>>")
+def tearDownModule():
+    os.system('start stopAppiumServer.bat') #关闭appium服务
+    print("test module end >>>>>>>>>>>>>>")
+
+
+
 class Test_login(unittest.TestCase,object):
     def setUp(self):
         self.logger = logger(os.path.basename(__file__))
@@ -16,26 +26,12 @@ class Test_login(unittest.TestCase,object):
         time.sleep(3)
     def tearDown(self):
         start_App.tearDown(self)
+
     def test01(self):
         self.logger.info('*************************************************************')
-        startMethod.action_Id(self, login['账号id'], titleMethod.duQu_Exlce(self, '登录', 1,2))
-        startMethod.action_Id(self, login['密码id'], titleMethod.duQu_Exlce(self, '登录', 1,3))
-        self.logger.info('登录')
-        time.sleep(2)
-        startMethod.action_Id(self, login['登录按钮id'], 'click')
-        time.sleep(2)
-        startMethod.action_Id(self, login['获取验证码id'], 'click')
-        startMethod.action_Id(self, login['输入验证码id'], titleMethod.duQu_Exlce(self, '登录', 1,4))
-        startMethod.action_Id(self, login['验证码确定id'], 'click')
-        self.logger.info('登录成功')
-        try:
-            WebDriverWait(self, 2).until(lambda driver: self.driver.find_element_by_xpath("//android.widget.TextView[@text='首页']"))
-            self.assertEqual(1, 1, msg='登陆成功')
-        except:
-            self.assertEqual(1, 2, msg='登陆失败')
+        startMethod.landing(self, 17603031220, 1234, 8888)
         time.sleep(3)
-
-        self.driver.tap([(216, 1782), (432, 1906)], 100)
+        self.driver.tap(tabbar['我的坐标'], 100)
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='添加盘源']").click()
         time.sleep(3)
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='租赁']").click()
@@ -43,33 +39,24 @@ class Test_login(unittest.TestCase,object):
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='扫楼']").click()
         time.sleep(3)
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='标准厂房']").click()
-        startMethod.action_Id(self,business['返回id'],'click')
+        startMethod.action_Id(self, business['返回id'], 'click')
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='确定']").click()
+        time.sleep(3)
+        try:
+            WebDriverWait(self, 2).until(lambda driver: self.driver.find_element_by_xpath("//android.widget.TextView[@text='首页']"))
+            self.assertEqual(1, 1, msg='登陆成功')
+        except:
+            self.assertEqual(1, 2, msg='登陆失败')
 
-        time.sleep(5)
-        #print(self.driver.find_element_by_xpath("//android.widget.TextView[@text='我的']").is_displayed())
-        #self.driver.find_element_by_xpath("//android.widget.TextView[@text='我的']").click()
-        #底部导航不行使用id xpath定位 暂时用tap
-        self.driver.tap([(864,1782), (1080,1906)], 100)
-        titleMethod.toachSweip(self, 0.5, 0.9, 0.5, 0.2)
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='退出登录']").click()
-        startMethod.action_Id(self, my['确认退出id'], 'click')
+        startMethod.logout(self)
+
 
     def test02(self):
         self.logger.info('*************************************************************')
-        startMethod.action_Id(self, login['账号id'], titleMethod.duQu_Exlce(self, '登录', 1, 2))
-        startMethod.action_Id(self, login['密码id'], titleMethod.duQu_Exlce(self, '登录', 1, 3))
-        self.logger.info('登录')
-        time.sleep(2)
-        startMethod.action_Id(self, login['登录按钮id'], 'click')
-        time.sleep(20)
-        startMethod.action_Id(self, login['获取验证码id'], 'click')
-        startMethod.action_Id(self, login['输入验证码id'], titleMethod.duQu_Exlce(self, '登录', 1, 4))
-        startMethod.action_Id(self, login['验证码确定id'], 'click')
+        startMethod.landing(self, 17603031220, 1234, 8888)
         self.logger.info('登录成功')
         time.sleep(3)
-
-        self.driver.tap([(216, 1782), (432, 1906)], 100)
+        self.driver.tap(tabbar['业务坐标'], 100)
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='报备客户']").click()
         self.driver.find_element_by_xpath("//android.widget.EditText[@text='请输入客户姓名']").set_text('林中')
         self.driver.find_element_by_xpath("//android.widget.EditText[@text='请输入客户手机号码']").set_text('17554525425')
@@ -88,7 +75,6 @@ class Test_login(unittest.TestCase,object):
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='请选择需求区域']").click()
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='深圳市']").click()
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='全深圳市']").click()
-
         startMethod.action_Id(self,business['提交id'], 'click')
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='实业客(租)']").click()
         titleMethod.toachSweip(self, 0.5, 0.9, 0.5, 0.2)
@@ -99,7 +85,7 @@ class Test_login(unittest.TestCase,object):
         startMethod.action_Id(self, business['提交id'], 'click')
         time.sleep(5)
         startMethod.action_Id(self, business['返回id'], 'click')
-
+        startMethod.logout(self)
 
 
 #添加Suite
@@ -132,4 +118,4 @@ if __name__ == '__main__':
     runner.run(suite())
     # 关闭文件，否则会无法生成文件
     report_set.close()
-    smtp.smtp_mail('qq', '578740769@qq.com', '36694640@qq.com')
+    smtpMethod.smtp_mail('qq', '578740769@qq.com', '36694640@qq.com')
