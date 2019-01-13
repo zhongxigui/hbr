@@ -65,8 +65,13 @@ class startMethod(object):
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='退出登录']").click()
         startMethod.action_Id(self, my['确认退出id'], 'click')
 
-
-
+    '''登录错误'''
+    def landing_fault(self,usemame,password):
+        self.driver.find_element_by_id(login['账号id']).set_text(usemame)
+        self.logger.info('输入账号为{}'.format(usemame))
+        self.driver.find_element_by_id(login['密码id']).set_text(password)
+        self.logger.info('输入密码为{}'.format(password))
+        self.driver.find_element_by_id(login['登录按钮id']).click()
 
 
 class titleMethod(object):
@@ -104,11 +109,27 @@ class titleMethod(object):
         action.press(x=x, y=y).wait(ms=1000).move_to(x=x1, y=y1).release()
         action.perform()
 
+    '''封装获取toast弹框'''
+    def find_toast(self,message):
+        try:
+            toast_Code = ("xpath", ".//*[contains(@text,'%s')]" % message)
+            WebDriverWait(self.driver, 10,0.1).until(EC.presence_of_element_located(toast_Code))
+            self.logger.info('toast找到{}'.format(message))
+            return True
+        except:
+            self.logger.info('toast找不到{}'.format(message))
+            return False
 
-
-
-
-
+    # '''封装获取toast弹框'''
+    # def find_toast(self, message):
+    #     try:
+    #         element = WebDriverWait(self.driver, 10,0.01).until(
+    #             EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, message)))
+    #         self.logger.info('toast找到{}'.format(message))
+    #         return True
+    #     except :
+    #         self.logger.info('toast找不到{}'.format(message))
+    #         return False
 
 
 
