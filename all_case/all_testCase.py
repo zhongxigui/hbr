@@ -24,7 +24,8 @@ def allCase():
 if __name__=="__main__":
     '''我们在如果想要生成测试报告，那么一定要注意右键执行时选择的右键菜单，一定要当做文件执行，不要让编辑器当做用例执行'''
     #确定生成报告的路径
-    pathCode ='C:\\Users\\57874\\Desktop\\hbr\\hbr_test_result\\'
+    pathCode = paths['上上一级'] + '\hbr\hbr_test_result\\'
+    #pathCode =r'C:\Users\Administrator\Desktop\hbr\hbr_test_result'
     curtime = time.strftime('%Y%m%d%H%M%S', time.localtime())
     report_path = pathCode + curtime + 'test_caseall'+'.html'
     report_set = open(report_path, 'wb')

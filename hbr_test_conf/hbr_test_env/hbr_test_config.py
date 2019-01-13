@@ -77,5 +77,8 @@ my['确认退出id']='com.zhaoshang800.partner:id/tv_new_dialog_right'
 
 
 '''路径'''
-way=os.path.abspath(os.path.join(os.getcwd(), "../.."))
-print(way)
+global paths
+paths={}
+paths['当前']=os.getcwd()
+paths['上一级']=os.path.abspath(os.path.dirname(os.getcwd()) + os.path.sep + ".")
+paths['上上一级']=os.path.abspath(os.path.dirname(os.getcwd()) + os.path.sep + "..")

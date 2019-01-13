@@ -69,11 +69,10 @@ class startMethod(object):
 
 
 
-
 class titleMethod(object):
     '''excelb表格读取'''
     def duQu_Exlce(self,Sheet,a,b):
-        exlce_Name = xlrd.open_workbook(r'C:\Users\57874\Desktop\hbr\hbr_exlce_case\denglu_excel.xls')  # 打开excel文件格式为xlsx有的是xls
+        exlce_Name = xlrd.open_workbook(paths['上上一级']+'\hbr\hbr_exlce_case\denglu_excel.xls')  # 打开excel文件格式为xlsx有的是xls
         table = exlce_Name.sheet_by_name(Sheet)
         cell_a1 = table.cell(a,b).value  # a代表行——从零开始   b代表列 从零开始
         return cell_a1
@@ -106,11 +105,20 @@ class titleMethod(object):
         action.perform()
 
 
+
+
+
+
+
+
+
 class smtpMethod(object):
     '''发送邮件'''
     @staticmethod
     def smtp_mail(choocemail, sendmail,receivemail):  # choocemail选择163还是qq,sendmail发件人，receivemail收件人
-        path = r"C:\\Users\\57874\\Desktop\\hbr\\hbr_test_result\\"
+
+        #path = r"C:\\Users\\57874\\Desktop\\hbr\\hbr_test_result\\"
+        path=paths['上上一级']+'\hbr\hbr_test_result\\'
         lists = os.listdir(path)
         filepath = path + lists[-1]
         with open(filepath, "rb") as fp:
@@ -161,3 +169,4 @@ class smtpMethod(object):
         smtp.login(sendmail, "qhjbbfqngrdsbfga")  # 登录
         smtp.sendmail(sendmail, receivemail, mailCode.as_string())  # 发送
         smtp.quit()  # 关闭
+
