@@ -46,11 +46,11 @@ login['验证码确定id']='com.zhaoshang800.partner:id/check_sure'
 '''底部导航'''
 global tabbar
 tabbar = {}
-tabbar['首页坐标']=[(0,1782),(216,1906)]
-tabbar['业务坐标']=[(216,1782),(432,1906)]
-tabbar['网店坐标']=[(432,1782),(648,1906)]
-tabbar['圈子坐标']=[(648,1782),(864,1906)]
-tabbar['我的坐标']=[(864,1782),(1080,1906)]
+tabbar['首页坐标']='com.zhaoshang800.partner:id/tv_tab_name'
+tabbar['业务坐标']='com.zhaoshang800.partner:id/tv_tab_name'
+tabbar['网店坐标']='com.zhaoshang800.partner:id/tv_tab_name'
+tabbar['圈子坐标']='com.zhaoshang800.partner:id/tv_tab_name'
+tabbar['我的坐标']='com.zhaoshang800.partner:id/tv_tab_name'
 
 
 '''首页界面'''

@@ -13,6 +13,7 @@ import smtplib
 from email.mime.text import  MIMEText
 from email.mime.multipart import MIMEMultipart
 
+
 class startMethod(object):
     '''ID获取元素'''
     def action_Id(self,id,text):
@@ -72,6 +73,14 @@ class startMethod(object):
         self.driver.find_element_by_id(login['密码id']).set_text(password)
         self.logger.info('输入密码为{}'.format(password))
         self.driver.find_element_by_id(login['登录按钮id']).click()
+
+    '''使用find_ements(by,value)定位
+    By.ID   相当于by_id
+    By.CLASS_NAME  相当于by_class_name
+    By.XPATH   相当于by_xpath
+    By.NAME   相当于by_name'''
+    def element_location(self,way,element,number):
+        self.driver.find_elements(way,element)[number].click()
 
 
 class titleMethod(object):
