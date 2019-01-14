@@ -112,25 +112,13 @@ class titleMethod(object):
     '''封装获取toast弹框'''
     def find_toast(self,message):
         try:
-            toast_Code = ("xpath", ".//*[contains(@text,'%s')]" % message)
-            WebDriverWait(self.driver, 10,0.1).until(EC.presence_of_element_located(toast_Code))
+            toast_Code = ("xpath", ".//*[@text='%s']" % message)
+            WebDriverWait(self.driver, 10,0.01).until(EC.presence_of_element_located(toast_Code))
             self.logger.info('toast找到{}'.format(message))
             return True
         except:
             self.logger.info('toast找不到{}'.format(message))
             return False
-
-    # '''封装获取toast弹框'''
-    # def find_toast(self, message):
-    #     try:
-    #         element = WebDriverWait(self.driver, 10,0.01).until(
-    #             EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, message)))
-    #         self.logger.info('toast找到{}'.format(message))
-    #         return True
-    #     except :
-    #         self.logger.info('toast找不到{}'.format(message))
-    #         return False
-
 
 
 class smtpMethod(object):

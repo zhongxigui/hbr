@@ -35,8 +35,10 @@ class Test_login(unittest.TestCase,object):
 
     def test01(self):
         self.logger.info('*************************************************************')
+
         startMethod.landing_fault(self,'','')
-        titleMethod.find_toast(self,'请输入账号或密码')
+        titleMethod.find_toast(self,'请输入帐号或密码')
+
 
 
 
