@@ -28,71 +28,24 @@ class Test_login(unittest.TestCase,object):
         start_App.tearDown(self)
 
     def test01(self):
-        self.logger.info('*************************************************************')
+        self.logger.info('正常登录')
         startMethod.landing(self, 17603031220, 1234, 8888)
-        time.sleep(3)
-        self.driver.tap(tabbar['我的坐标'], 100)
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='添加盘源']").click()
-        time.sleep(3)
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='租赁']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='厂房']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='扫楼']").click()
-        time.sleep(3)
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='标准厂房']").click()
-        startMethod.action_Id(self, business['返回id'], 'click')
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='确定']").click()
-        time.sleep(3)
-        try:
-            WebDriverWait(self, 2).until(lambda driver: self.driver.find_element_by_xpath("//android.widget.TextView[@text='首页']"))
-            self.assertEqual(1, 1, msg='登陆成功')
-        except:
-            self.assertEqual(1, 2, msg='登陆失败')
-
         startMethod.logout(self)
-
 
     def test02(self):
-        self.logger.info('*************************************************************')
-        startMethod.landing(self, 17603031220, 1234, 8888)
-        self.logger.info('登录成功')
-        time.sleep(3)
-        self.driver.tap(tabbar['业务坐标'], 100)
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='报备客户']").click()
-        self.driver.find_element_by_xpath("//android.widget.EditText[@text='请输入客户姓名']").set_text('林中')
-        self.driver.find_element_by_xpath("//android.widget.EditText[@text='请输入客户手机号码']").set_text('17554525425')
-        startMethod.action_Id(self,business['性别id'],'click')
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='请选择客户行业']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='电子']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='互联网/电子商务']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='请选择客户来源']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='固定广告']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='提交']").click()
-        time.sleep(4)
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='厂房']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='A']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='租']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='30元/㎡·月以下']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='请选择需求区域']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='深圳市']").click()
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='全深圳市']").click()
-        startMethod.action_Id(self,business['提交id'], 'click')
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='实业客(租)']").click()
-        titleMethod.toachSweip(self, 0.5, 0.9, 0.5, 0.2)
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='半佣']").click()
-        self.driver.find_element_by_xpath("//android.widget.EditText[@text='请输入最小需求面积']").set_text('1000')
-        self.driver.find_element_by_xpath("//android.widget.EditText[@text='请输入最大需求面积']").set_text('10000')
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='否']").click()
-        startMethod.action_Id(self, business['提交id'], 'click')
-        time.sleep(5)
-        startMethod.action_Id(self, business['返回id'], 'click')
-        startMethod.logout(self)
+        self.logger.info('手机号不存在')
+        startMethod.landing(self, 17603034420, 1234, 8888)
 
+    def test03(self):
+        self.logger.info('密码错误')
+        startMethod.landing(self, 17603034420, 12314, 8888)
 
 #添加Suite
 def suite():
      #定义一个单元测试容器
     suiteTest = unittest.TestSuite()
     suiteTest.addTest(Test_login('test01'))
+    suiteTest.addTest(Test_login('test02'))
     suiteTest.addTest(Test_login('test02'))
     return suiteTest
 
@@ -103,7 +56,6 @@ if __name__ == '__main__':
     '''我们在如果想要生成测试报告，那么一定要注意右键执行时选择的右键菜单，一定要当做文件执行，不要让编辑器当做用例执行'''
     #确定生成报告的路径
     pathCode = paths['上上一级'] + '\hbr\hbr_test_result\\'
-    #pathCode ='C:\\Users\\57874\\Desktop\\hbr\\hbr_test_result\\'
     curtime = time.strftime('%Y%m%d%H%M%S', time.localtime())
     report_path = pathCode + curtime + 'test_case001'+'.html'
     report_set = open(report_path, 'wb')

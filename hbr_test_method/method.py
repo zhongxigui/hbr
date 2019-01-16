@@ -135,7 +135,6 @@ class smtpMethod(object):
     @staticmethod
     def smtp_mail(choocemail, sendmail,receivemail):  # choocemail选择163还是qq,sendmail发件人，receivemail收件人
 
-        #path = r"C:\\Users\\57874\\Desktop\\hbr\\hbr_test_result\\"
         path=paths['上上一级']+'\hbr\hbr_test_result\\'
         lists = os.listdir(path)
         filepath = path + lists[-1]

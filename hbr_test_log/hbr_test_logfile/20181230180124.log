@@ -1,5 +1,0 @@
-[2018-12-30 18:01:42,615](INFO)test_case001_Login.py : *************************************************************
-[2018-12-30 18:01:42,637](INFO)test_case001_Login.py : >>>定位控件com.zhaoshang800.partner:id/et_login_name,输入内容为：17603031220
-[2018-12-30 18:01:43,297](INFO)test_case001_Login.py : >>>定位控件com.zhaoshang800.partner:id/et_login_word,输入内容为：1234
-[2018-12-30 18:01:44,350](INFO)test_case001_Login.py : >>>点击控件：com.zhaoshang800.partner:id/btn_login
-[2018-12-30 18:01:46,912](INFO)test_case001_Login.py : >>>点击控件：com.zhaoshang800.partner:id/get_verification
