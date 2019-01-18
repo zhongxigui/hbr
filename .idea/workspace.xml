@@ -2,276 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="180c6ae1-68ce-475f-be18-8e7a0a5dbfd3" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_case/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_case/test_case009.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_case/toast_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_case/xapth_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230163231.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230163913.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230165418.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230165517.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230165538.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230165647.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230170046.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230170115.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230170140.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230170327.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230170444.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230170508.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230170913.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230171135.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230171242.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230171357.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230171844.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230171904.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230172433.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230172545.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230172622.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230172640.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230172744.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230173041.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230173241.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230180011.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230180124.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230180235.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230180414.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230180540.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230180732.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230181012.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230210744.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230210836.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230211426.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230211627.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230211723.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230212221.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230212419.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230212637.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230212907.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230214703.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230215325.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230215511.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230220022.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230220133.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230220302.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230221556.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230221721.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230222125.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230230316.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230230413.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230230715.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181230231234.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231094334.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231094602.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231094938.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231095147.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231095333.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231100124.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231100340.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231100450.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231100601.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231102938.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231103221.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231103419.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231105213.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231105217.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231105234.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231105358.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231105445.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231111621.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231111923.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231112144.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231112300.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231112559.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231112827.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231113054.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231113332.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231125045.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20181231125220.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102094029.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102094213.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102101245.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102101423.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102101516.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102101527.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102102059.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102102144.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102102248.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102102338.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102102501.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102102655.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102102750.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102102935.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102103025.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102103252.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102103341.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102103552.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102103905.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102103937.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102104023.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102104112.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102104704.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102104753.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102105026.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102105116.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102105250.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102105339.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102135307.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102135325.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102135337.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102135507.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102135916.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102135921.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102140023.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102140114.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102145230.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102145235.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102145258.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102145402.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102150357.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102150402.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102150432.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102150532.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102150932.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102151027.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102151901.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190102151933.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103102234.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103102239.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103102318.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103102410.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103102510.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103102630.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103103003.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103104323.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103104328.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103104352.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103104422.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103104600.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103104711.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103110503.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103110603.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103110758.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103110817.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103110953.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103111044.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103111319.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103111338.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103111646.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103111739.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103111913.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103112007.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103112141.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103112236.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103112410.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103112415.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103112915.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103112920.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103112934.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103113155.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103113330.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103135524.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103135544.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103135703.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103135722.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103140949.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103140952.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103141018.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103141021.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103142131.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103142134.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103142327.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103142330.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103142633.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103142636.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103143529.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103143536.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103143621.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103143708.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103143711.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103143836.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103143839.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103144510.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103144513.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103145939.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103145942.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103145945.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103145948.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150049.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150052.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150055.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150058.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150136.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150139.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150142.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150145.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150211.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150214.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150428.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150431.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150434.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150437.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150520.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150523.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150526.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150529.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150732.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150735.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150738.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190103150741.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154230.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154235.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154345.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154448.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154453.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154510.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154515.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154655.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154700.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154807.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154812.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154825.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107154830.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107155507.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107155512.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107155718.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107155723.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107155744.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190107155749.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114211956.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114212135.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114212318.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114221811.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114222257.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114222507.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114222556.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114222921.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114223256.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114223434.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114223616.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114223747.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114223841.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/20190114224039.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103143836test_caseall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103144509test_caseall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103145939test_caseall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103150049test_caseall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103150136test_caseall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103150211test_case001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103150428test_caseall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103150520test_caseall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190103150732test_caseall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190114223434test_case001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190114223616test_case001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hbr_test_result/20190114223747test_case001.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hbr.iml" afterPath="$PROJECT_DIR$/.idea/hbr.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hbr_test_case/test_login.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all_case/all_testCase.py" afterPath="$PROJECT_DIR$/all_case/all_testCase.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_case/test_case001_Login.py" afterPath="$PROJECT_DIR$/hbr_test_case/test_case001_Login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logmethod.py" afterPath="$PROJECT_DIR$/hbr_test_log/hbr_test_logmethod.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/test.log" afterPath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/test.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_method/method.py" afterPath="$PROJECT_DIR$/hbr_test_method/method.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -282,29 +16,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/hbr$hbr_test_logmethod.coverage" NAME="hbr_test_logmethod Coverage Results" MODIFIED="1547049945409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_log" />
     <SUITE FILE_PATH="coverage/hbr$1.coverage" NAME="1 Coverage Results" MODIFIED="1547047853788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_log" />
     <SUITE FILE_PATH="coverage/hbr$all_testCase.coverage" NAME="all_testCase Coverage Results" MODIFIED="1547367934434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/all_case" />
-    <SUITE FILE_PATH="coverage/hbr$test_case001_Login_py.coverage" NAME="test_case001_Login.py Coverage Results" MODIFIED="1547370101076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
-    <SUITE FILE_PATH="coverage/hbr$Unittests_in_toast_test__1_.coverage" NAME="Unittests in xapth_test Coverage Results" MODIFIED="1547478673152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_pash.coverage" NAME="Unittests in test_pash Coverage Results" MODIFIED="1547366363654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$111__2_.coverage" NAME="111 (2) Coverage Results" MODIFIED="1547367889281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/all_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_login.coverage" NAME="Unittests in test_login Coverage Results" MODIFIED="1547798900960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_1111.coverage" NAME="Unittests in 1111 Coverage Results" MODIFIED="1546843533612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$test.coverage" NAME="file-test_case001_Login.py Coverage Results" MODIFIED="1546498930599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$.coverage" NAME="file_test_ddt_josn Coverage Results" MODIFIED="1547710867762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_toast.coverage" NAME="Unittests in toast Coverage Results" MODIFIED="1547389222234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1546510252845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hbr$test_HTMLTestReportCN.coverage" NAME="test_HTMLTestReportCN Coverage Results" MODIFIED="1546482799525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/HTMLTestRunnerCN-master/python3x" />
+    <SUITE FILE_PATH="coverage/hbr$hbr_test_config.coverage" NAME="hbr_test_config Coverage Results" MODIFIED="1546846508763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_conf/hbr_test_env" />
+    <SUITE FILE_PATH="coverage/hbr$hbr_test_logmethod.coverage" NAME="hbr_test_logmethod Coverage Results" MODIFIED="1547049945409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_log" />
+    <SUITE FILE_PATH="coverage/hbr$test_case001_Login_py.coverage" NAME="test_case001_Login.py Coverage Results" MODIFIED="1547795218500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_toast_test__1_.coverage" NAME="Unittests in xapth_test Coverage Results" MODIFIED="1547478673152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$111__3_.coverage" NAME="111 (3) Coverage Results" MODIFIED="1547370357946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_method" />
     <SUITE FILE_PATH="coverage/hbr$file_test.coverage" NAME="file-test Coverage Results" MODIFIED="1547044025110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hbr$111.coverage" NAME="111 Coverage Results" MODIFIED="1547369596579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_conf/hbr_test_env" />
-    <SUITE FILE_PATH="coverage/hbr$111__2_.coverage" NAME="111 (2) Coverage Results" MODIFIED="1547367889281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/all_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_case001_Login.coverage" NAME="test_case001_Login.py Coverage Results" MODIFIED="1546164708744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$11.coverage" NAME="11 Coverage Results" MODIFIED="1547049429182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$file_toast.coverage" NAME="file_toast Coverage Results" MODIFIED="1547476665731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$file_test_pash.coverage" NAME="file test_pash Coverage Results" MODIFIED="1547365829426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_ddt_josn.coverage" NAME="Unittests in test_ddt_josn Coverage Results" MODIFIED="1547778423751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$111__1_.coverage" NAME="111 (1) Coverage Results" MODIFIED="1547366056502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_log" />
-    <SUITE FILE_PATH="coverage/hbr$Unittests_in_1111.coverage" NAME="Unittests in 1111 Coverage Results" MODIFIED="1546843533612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
-    <SUITE FILE_PATH="coverage/hbr$test.coverage" NAME="file-test_case001_Login.py Coverage Results" MODIFIED="1546498930599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_test__1_.coverage" NAME="Unittests in test (1) Coverage Results" MODIFIED="1547050296865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
-    <SUITE FILE_PATH="coverage/hbr$Unittests_in_toast.coverage" NAME="Unittests in toast Coverage Results" MODIFIED="1547389222234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
-    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1546510252845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hbr$test_HTMLTestReportCN.coverage" NAME="test_HTMLTestReportCN Coverage Results" MODIFIED="1546482799525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/HTMLTestRunnerCN-master/python3x" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_xapth_test__1_.coverage" NAME="Unittests in xapth_test (1) Coverage Results" MODIFIED="1547483551322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
-    <SUITE FILE_PATH="coverage/hbr$hbr_test_config.coverage" NAME="hbr_test_config Coverage Results" MODIFIED="1546846508763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_conf/hbr_test_env" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -312,11 +49,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="method.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_case001_Login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case001_Login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+              <folding>
+                <element signature="e#23#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbr_test_case/test_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="e#23#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="method.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hbr_test_method/method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2337">
-              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+            <state relative-caret-position="1824">
+              <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#1180#1216#0" expanded="false" />
@@ -325,24 +86,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startAPP.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/startAPP.py">
+      <file leaf-file-name="ddt_json.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbr_exlce_case/ddt_json.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="38">
+              <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_case001_Login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case001_Login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-              <folding>
-                <element signature="e#23#45#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -350,31 +99,9 @@
       <file leaf-file-name="hbr_test_config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            <state relative-caret-position="988">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hbr_test_logmethod.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbr_test_log/hbr_test_logmethod.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all_testCase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_case/all_testCase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-              <folding>
-                <element signature="e#15#65#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -419,9 +146,13 @@
         <option value="$PROJECT_DIR$/hbr_test_case/xapth_test.py" />
         <option value="$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py" />
         <option value="$PROJECT_DIR$/all_case/all_testCase.py" />
-        <option value="$PROJECT_DIR$/hbr_test_case/test_case001_Login.py" />
         <option value="$PROJECT_DIR$/hbr_test_log/hbr_test_logmethod.py" />
+        <option value="$PROJECT_DIR$/hbr_test_case/json.py" />
+        <option value="$PROJECT_DIR$/hbr_test_case/test_ddt_josn.py" />
+        <option value="$PROJECT_DIR$/hbr_test_case/test_case001_Login.py" />
         <option value="$PROJECT_DIR$/hbr_test_method/method.py" />
+        <option value="$PROJECT_DIR$/hbr_test_case/test_login.py" />
+        <option value="$PROJECT_DIR$/hbr_exlce_case/ddt_json.json" />
       </list>
     </option>
   </component>
@@ -432,8 +163,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-10" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -452,6 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -474,14 +206,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="hbr_test_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr_test_log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr_test_conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr_test_case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="all_case" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,7 +275,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lkkm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -498,7 +284,7 @@
       <recent name="C:\Users\57874\Desktop\hbr" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in xapth_test (1)">
+  <component name="RunManager" selected="Python tests.Unittests in test_login">
     <configuration default="false" name="111 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -535,7 +321,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in xapth_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test_ddt_josn" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -546,7 +332,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="hbr" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\hbr\hbr_test_case\xapth_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hbr_test_case/test_ddt_josn.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -558,7 +344,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in xapth_test (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -569,7 +355,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="hbr" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hbr_test_case/xapth_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hbr_test_case/test_login.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -795,6 +581,24 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="file_test_ddt_josn" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\57874\AppData\Local\Programs\Python\Python35-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hbr_test_case" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hbr" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hbr_test_case/test_ddt_josn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="file_toast" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -871,7 +675,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
-      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\57874\AppData\Local\Programs\Python\Python35-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hbr_test_case" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -890,24 +694,23 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Python.file_toast" />
-      <item index="1" class="java.lang.String" itemvalue="Python.file test_pash" />
-      <item index="2" class="java.lang.String" itemvalue="Python.file-test_case001_Login.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.file-test" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.test_case001_Login.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python.111 (3)" />
-      <item index="6" class="java.lang.String" itemvalue="Python.111" />
-      <item index="7" class="java.lang.String" itemvalue="Python tests.Unittests in xapth_test" />
-      <item index="8" class="java.lang.String" itemvalue="Python tests.Unittests in xapth_test (1)" />
+    <list size="10">
+      <item index="0" class="java.lang.String" itemvalue="Python.file_test_ddt_josn" />
+      <item index="1" class="java.lang.String" itemvalue="Python.file_toast" />
+      <item index="2" class="java.lang.String" itemvalue="Python.file test_pash" />
+      <item index="3" class="java.lang.String" itemvalue="Python.file-test_case001_Login.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.file-test" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.test_case001_Login.py" />
+      <item index="6" class="java.lang.String" itemvalue="Python.111 (3)" />
+      <item index="7" class="java.lang.String" itemvalue="Python.111" />
+      <item index="8" class="java.lang.String" itemvalue="Python tests.Unittests in test_ddt_josn" />
+      <item index="9" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in xapth_test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in xapth_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in xapth_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.111 (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.111" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_ddt_josn" />
+        <item index="2" class="java.lang.String" itemvalue="Python.111 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -925,35 +728,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.14 at 23h 21m 01s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 23m 03s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.14 at 23h 23m 51s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 24m 15s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.14 at 23h 25m 37s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 31m 19s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.14 at 23h 38m 08s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 40m 52s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.14 at 23h 44m 11s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 43m 28s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.14 at 23h 57m 09s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 46m 04s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.14 at 23h 58m 27s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 48m 28s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.15 at 00h 00m 45s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 52m 33s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.15 at 00h 03m 01s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 15h 55m 41s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xapth_test_(1) - 2019.01.15 at 00h 33m 33s.xml">
-      <configuration name="Unittests in xapth_test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login - 2019.01.18 at 16h 09m 36s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -966,10 +769,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-10" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23454158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -984,7 +787,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35457516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35357916" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1005,37 +808,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case001_Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_method/method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="92" lean-forward="false" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startAPP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case001_Login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1217,39 +989,18 @@
     <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/111.py" />
     <entry file="file://$PROJECT_DIR$/hbr_test_method/111.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/selenium/webdriver/support/wait.py" />
-    <entry file="file://$PROJECT_DIR$/hbr_test_case/xapth_test.py">
+    <entry file="file://$PROJECT_DIR$/hbr_test_case/xapth_test.py" />
+    <entry file="file://$PROJECT_DIR$/startAPP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/all_case/all_testCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="399">
           <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="e#15#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case001_Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,26 +1008,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_test_case/json.py" />
+    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_ddt_josn.py" />
+    <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_exlce_case/ddt_json.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case001_Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hbr_test_method/method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        <state relative-caret-position="1824">
+          <caret line="123" column="36" lean-forward="false" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#1180#1216#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startAPP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>

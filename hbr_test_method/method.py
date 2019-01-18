@@ -60,7 +60,7 @@ class startMethod(object):
 
     '''退出登录'''
     def logout(self):
-        self.driver.tap([(864, 1782), (1080, 1906)], 100)
+        startMethod.element_location(self,By.ID,tabbar['我的坐标'],4)
         #self.driver.find_element_by_xpath("//android.widget.TextView[@text='我的']").click()  底部导航不行使用id xpath定位 暂时用tap
         titleMethod.toachSweip(self, 0.5, 0.9, 0.5, 0.2)
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='退出登录']").click()
@@ -121,7 +121,7 @@ class titleMethod(object):
     '''封装获取toast弹框'''
     def find_toast(self,message):
         try:
-            toast_Code = ("xpath", ".//*[@text='%s']" % message)
+            toast_Code = ("xpath", "//*[@text='%s']" % message)
             WebDriverWait(self.driver, 10,0.01).until(EC.presence_of_element_located(toast_Code))
             self.logger.info('toast找到{}'.format(message))
             return True

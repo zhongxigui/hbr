@@ -13,14 +13,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from appium.webdriver.common.touch_action import TouchAction #导入Touch Action类
 
-
-def setUpModule():
-    os.system('start startAppiumServer.bat')  # 启动appium服务
-    time.sleep(8)  # 等待appium服务启动完毕
-    print("test module star >>>>>>>>>>>>>>")
-def tearDownModule():
-    os.system('start stopAppiumServer.bat') #关闭appium服务
-    print("test module end >>>>>>>>>>>>>>")
+# def setUpModule():
+#     os.system('start startAppiumServer.bat')  # 启动appium服务
+#     time.sleep(8)  # 等待appium服务启动完毕
+#     print("test module star >>>>>>>>>>>>>>")
+# def tearDownModule():
+#     os.system('start stopAppiumServer.bat') #关闭appium服务
+#     print("test module end >>>>>>>>>>>>>>")
 
 
 @ddt
@@ -39,36 +38,22 @@ class Test_login(unittest.TestCase,object):
         self.driver.find_element_by_id(login['密码id']).set_text(password)
         self.logger.info('输入密码为{}'.format(password))
         self.driver.find_element_by_id(login['登录按钮id']).click()
-        while 1==1:
-            if titleMethod.find_toast(self,'请输入帐号或密码'):
-                print('登录失败')
-                break
-            elif titleMethod.find_toast(self,'手机号码格式不正确，请联系助理'):
-                print('登录失败')
-                break
-            elif titleMethod.find_toast(self,'手机号码不存在，请联系助理'):
-                print('登录失败')
-                break
-            else:
-                self.driver.find_element_by_id(login['获取验证码id']).click()
-                self.driver.find_element_by_id(login['输入验证码id']).set_text(verification)
-                self.driver.find_element_by_id(login['验证码确定id']).click()
-                startMethod.logout(self)
-
-    def test02(self):
-        pass
-
-
-    def test03(self):
-        pass
+        if titleMethod.find_toast(self,'请输入帐号或密码'):
+            self.assertEqual(1, 1, msg='请输入帐号或密码')
+        elif titleMethod.find_toast(self,'手机号码不存在，请联系助理'):
+            self.assertEqual(1, 1, msg='手机号码不存在，请联系助理')
+        else:
+            self.driver.find_element_by_id(login['获取验证码id']).click()
+            self.driver.find_element_by_id(login['输入验证码id']).set_text(verification)
+            self.driver.find_element_by_id(login['验证码确定id']).click()
+            self.assertEqual(1, 1, msg='登录成功')
+            startMethod.logout(self)
 
 #添加Suite
 def suite():
      #定义一个单元测试容器
     suiteTest = unittest.TestSuite()
     suiteTest.addTest(Test_login('test01'))
-    suiteTest.addTest(Test_login('test02'))
-    suiteTest.addTest(Test_login('test02'))
     return suiteTest
 
 
