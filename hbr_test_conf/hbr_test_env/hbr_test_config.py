@@ -58,6 +58,15 @@ global home
 home = {}
 home['搜索栏id']='com.zhaoshang800.partner:id/home_search'
 home['通知公告xpath']='通知公告'
+home['通讯录id']='com.zhaoshang800.partner:id/home_contacts'
+
+'''通讯录'''
+global addresslist
+addresslist = {}
+addresslist['请输入经纪人名字和/短号']= 'com.zhaoshang800.partner:id/ll_broker_search'
+addresslist['我的关注id']='com.zhaoshang800.partner:id/tv_my_follow'
+addresslist['第一区域xp']='//android.widget.TextView[@text=\'第一区域\']'
+addresslist['请输入经纪人姓名短号xp']='//android.widget.TextView[@text=\'请输入经纪人姓名/短号\']'
 
 
 '''业务界面'''

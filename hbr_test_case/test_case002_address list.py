@@ -13,17 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from appium.webdriver.common.touch_action import TouchAction #导入Touch Action类
 
-# def setUpModule():
-#     os.system('start startAppiumServer.bat')  # 启动appium服务
-#     time.sleep(8)  # 等待appium服务启动完毕
-#     print("test module star >>>>>>>>>>>>>>")
-# def tearDownModule():
-#     os.system('start stopAppiumServer.bat') #关闭appium服务
-#     print("test module end >>>>>>>>>>>>>>")
-
-
-@ddt
-class Test_login(unittest.TestCase,object):
+class address_list(unittest.TestCase,object):
     def setUp(self):
         self.logger = logger(os.path.basename(__file__))
         start_App.setUp(self)
@@ -31,29 +21,49 @@ class Test_login(unittest.TestCase,object):
     def tearDown(self):
         start_App.tearDown(self)
 
-    @file_data('D:\github\hbr\hbr_exlce_case\ddt_json.json')
-    def test01(self,usemame,password,verification):
-        self.driver.find_element_by_id(login['账号id']).set_text(usemame)
-        self.logger.info('输入账号为{}'.format(usemame))
-        self.driver.find_element_by_id(login['密码id']).set_text(password)
-        self.logger.info('输入密码为{}'.format(password))
-        self.driver.find_element_by_id(login['登录按钮id']).click()
-        if titleMethod.find_toast(self,'请输入帐号或密码'):
-            self.assertEqual(1, 1, msg='请输入帐号或密码')
-        elif titleMethod.find_toast(self,'手机号码不存在，请联系助理'):
-            self.assertEqual(1, 1, msg='手机号码不存在，请联系助理')
-        else:
-            self.driver.find_element_by_id(login['获取验证码id']).click()
-            self.driver.find_element_by_id(login['输入验证码id']).set_text(verification)
-            self.driver.find_element_by_id(login['验证码确定id']).click()
-            self.assertEqual(1, 1, msg='登录成功')
-            startMethod.logout(self)
+
+    def test01(self):
+        startMethod.landing(self,'17603031220','123456','8888')
+        startMethod.action_Id(self,home['通讯录id'],'click')
+        startMethod.action_Xpath(self,addresslist['请输入经纪人姓名短号xp'],'click')
+        startMethod.action_Id(self,'com.zhaoshang800.partner:id/et_name','666')
+        titleMethod.toachSweip(self, 0.5, 0.8, 0.5, 0.1)
+        time.sleep(3)
+        startMethod.element_location(self,By.XPATH,'//android.widget.TextView[@text=\'关注\']',2)
+        time.sleep(3)
+        titleMethod.Keycode(self,4)
+        startMethod.action_Id(self,addresslist['我的关注id'],'click')
+
+    def test02(self):
+        startMethod.action_Id(self, home['通讯录id'], 'click')
+        startMethod.action_Xpath(self,addresslist['第一区域xp'],'click')
+        self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'福永一\']').click()
+        self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'宫震\']').click()
+        self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'关注\']').click()
+        titleMethod.Keycode(self, 4)
+        titleMethod.Keycode(self, 4)
+        titleMethod.Keycode(self, 4)
+        startMethod.action_Id(self,addresslist['我的关注id'],'click')
+        startMethod.element_location(self, By.XPATH, '//android.widget.TextView[@text=\'已关注\']', 0)
+        self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'确定\']').click()
+        titleMethod.toachSweip(self, 0.5, 0.1, 0.5, 0.8)
+
+
+
+
+
+
+
+
+
+
 
 #添加Suite
 def suite():
      #定义一个单元测试容器
     suiteTest = unittest.TestSuite()
-    suiteTest.addTest(Test_login('test01'))
+    suiteTest.addTest(address_list('test01'))
+    suiteTest.addTest(address_list('test02'))
     return suiteTest
 
 

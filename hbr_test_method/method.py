@@ -32,20 +32,20 @@ class startMethod(object):
                 return self.driver.find_element_by_id(id).set_text(text)
 
     '''xpath获取元素'''
-    # def action_Xpath(self,xpath,text):
-    #     if text=='obtain':
-    #         pro = '获取元素：'
-    #         self.logger.info(u'>>>%s%s' % (pro, xpath))
-    #         return self.driver.find_element_by_xpath("//android.widget.TextView[@text='xpath']")
-    #     else:
-    #         if text=='click':
-    #             pro = '点击控件：'
-    #             self.logger.info(u'>>>%s%s' % (pro, xpath))
-    #             return self.driver.find_element_by_xpath("//android.widget.TextView[@text='xpath']").click()
-    #         else:
-    #             pro = '输入内容为：'
-    #             self.logger.info(u'>>>定位控件%s,%s%s' % (xpath,pro,text))
-    #             return self.driver.find_element_by_xpath("//android.widget.TextView[@text='xpath']").set_text(text)
+    def action_Xpath(self,xpath,text):
+        if text=='obtain':
+            pro = '获取元素：'
+            self.logger.info(u'>>>%s%s' % (pro, xpath))
+            return self.driver.find_element_by_xpath( xpath)
+        else:
+            if text=='click':
+                pro = '点击控件：'
+                self.logger.info(u'>>>%s%s' % (pro, xpath))
+                return self.driver.find_element_by_xpath( xpath).click()
+            else:
+                pro = '输入内容为：'
+                self.logger.info(u'>>>定位控件%s,%s%s' % (xpath,pro,text))
+                return self.driver.find_element_by_xpath( xpath).set_text(text)
 
     '''登录方法'''
     def landing(self,usemame,password,verification):
@@ -128,6 +128,10 @@ class titleMethod(object):
         except:
             self.logger.info('toast找不到{}'.format(message))
             return False
+
+    '''封装手机KeyCode方法'''
+    def Keycode(self,a):
+        os.popen('adb shell input keyevent '+ str(a))
 
 
 class smtpMethod(object):
