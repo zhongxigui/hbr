@@ -21,7 +21,7 @@ class address_list(unittest.TestCase,object):
     def tearDown(self):
         start_App.tearDown(self)
 
-
+    '''搜索关注经纪人'''
     def test01(self):
         startMethod.landing(self,'17603031220','123456','8888')
         startMethod.action_Id(self,home['通讯录id'],'click')
@@ -34,15 +34,18 @@ class address_list(unittest.TestCase,object):
         titleMethod.Keycode(self,4)
         startMethod.action_Id(self,addresslist['我的关注id'],'click')
 
+
+    '''搜索取消关注经纪人'''
     def test02(self):
         startMethod.action_Id(self, home['通讯录id'], 'click')
         startMethod.action_Xpath(self,addresslist['第一区域xp'],'click')
         self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'福永一\']').click()
         self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'宫震\']').click()
         self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'关注\']').click()
-        titleMethod.Keycode(self, 4)
-        titleMethod.Keycode(self, 4)
-        titleMethod.Keycode(self, 4)
+        i=3
+        while i > 0:
+            startMethod.action_Xpath(self,commonality['返回id'],'click')
+            i = i - 1
         startMethod.action_Id(self,addresslist['我的关注id'],'click')
         startMethod.element_location(self, By.XPATH, '//android.widget.TextView[@text=\'已关注\']', 0)
         self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'确定\']').click()
@@ -74,7 +77,7 @@ if __name__ == '__main__':
     #确定生成报告的路径
     pathCode = paths['上上一级'] + '\hbr\hbr_test_result\\'
     curtime = time.strftime('%Y%m%d%H%M%S', time.localtime())
-    report_path = pathCode + curtime + 'test_case001'+'.html'
+    report_path = pathCode + curtime + 'test_case002'+'.html'
     report_set = open(report_path, 'wb')
 
     #生成报告的Title,描述

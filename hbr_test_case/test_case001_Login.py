@@ -32,6 +32,8 @@ class Test_login(unittest.TestCase,object):
     def tearDown(self):
         start_App.tearDown(self)
 
+
+    '''登录验证'''
     @file_data('D:\github\hbr\hbr_exlce_case\ddt_json.json')
     def test01(self,usemame,password,verification):
         self.driver.find_element_by_id(login['账号id']).set_text(usemame)

@@ -133,6 +133,16 @@ class titleMethod(object):
     def Keycode(self,a):
         os.popen('adb shell input keyevent '+ str(a))
 
+    '''选择图片数量'''
+    def Photo(self,count):
+        startMethod.action_Id(self,commonality['点击相机id'],'click')
+        startMethod.action_Xpath(self,commonality['选择相册xp'],'click')
+        while 0 <= count:
+            self.driver.find_elements(By.ID, commonality['选择图片id'])[count].click()
+            count = count -1
+        startMethod.action_Id(self,commonality['完成id'],'click')
+
+
 
 class smtpMethod(object):
     '''发送邮件'''
