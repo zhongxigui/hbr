@@ -1,5 +1,0 @@
-[2019-01-25 10:39:13,482](INFO)test_case001_Login.py : 输入账号为
-[2019-01-25 10:39:14,549](INFO)test_case001_Login.py : 输入密码为
-[2019-01-25 10:39:25,259](INFO)test_case001_Login.py : toast找不到请输入帐号或密码
-[2019-01-25 10:39:35,550](INFO)test_case001_Login.py : toast找不到手机号码格式不正确，请联系助理
-[2019-01-25 10:39:45,586](INFO)test_case001_Login.py : toast找不到手机号码不存在，请联系助理

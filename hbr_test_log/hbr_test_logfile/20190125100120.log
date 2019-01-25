@@ -1,6 +1,0 @@
-[2019-01-25 10:01:37,044](INFO)test_case002_address_list.py : 输入账号为17603031220
-[2019-01-25 10:01:38,174](INFO)test_case002_address_list.py : 输入密码为123456
-[2019-01-25 10:01:43,274](INFO)test_case002_address_list.py : >>>点击控件：com.zhaoshang800.partner.debug:id/home_contacts
-[2019-01-25 10:01:47,061](INFO)test_case002_address_list.py : >>>点击控件：//android.widget.TextView[@text='请输入经纪人姓名/短号']
-[2019-01-25 10:02:08,505](INFO)test_case002_address_list.py : >>>点击控件：com.zhaoshang800.partner.debug:id/home_contacts
-[2019-01-25 10:02:10,487](INFO)test_case002_address_list.py : >>>点击控件：//android.widget.TextView[@text='第一区域']
