@@ -13,6 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from appium.webdriver.common.touch_action import TouchAction #导入Touch Action类
 
+
 class address_list(unittest.TestCase,object):
     def setUp(self):
         self.logger = logger(os.path.basename(__file__))
@@ -21,12 +22,12 @@ class address_list(unittest.TestCase,object):
     def tearDown(self):
         start_App.tearDown(self)
 
-    '''搜索关注经纪人'''
+    '''搜索通讯录关注经纪人'''
     def test01(self):
         startMethod.landing(self,'17603031220','123456','8888')
         startMethod.action_Id(self,home['通讯录id'],'click')
         startMethod.action_Xpath(self,addresslist['请输入经纪人姓名短号xp'],'click')
-        startMethod.action_Id(self,'com.zhaoshang800.partner:id/et_name','666')
+        startMethod.action_Xpath(self,addresslist['请输入经纪人姓名短号1xp'], '666')
         titleMethod.toachSweip(self, 0.5, 0.8, 0.5, 0.1)
         time.sleep(3)
         startMethod.element_location(self,By.XPATH,'//android.widget.TextView[@text=\'关注\']',2)
@@ -35,17 +36,15 @@ class address_list(unittest.TestCase,object):
         startMethod.action_Id(self,addresslist['我的关注id'],'click')
 
 
-    '''搜索取消关注经纪人'''
+    '''搜索通讯录取消关注经纪人'''
     def test02(self):
         startMethod.action_Id(self, home['通讯录id'], 'click')
         startMethod.action_Xpath(self,addresslist['第一区域xp'],'click')
         self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'福永一\']').click()
-        self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'宫震\']').click()
-        self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'关注\']').click()
-        i=3
-        while i > 0:
-            startMethod.action_Xpath(self,commonality['返回id'],'click')
-            i = i - 1
+        startMethod.element_location(self, By.XPATH, '//android.widget.TextView[@text=\'关注\']', 2)
+        startMethod.action_Id(self,commonality['返回id'],'click')
+        time.sleep(2)
+        startMethod.action_Id(self,commonality['返回id'],'click')
         startMethod.action_Id(self,addresslist['我的关注id'],'click')
         startMethod.element_location(self, By.XPATH, '//android.widget.TextView[@text=\'已关注\']', 0)
         self.driver.find_element_by_xpath('//android.widget.TextView[@text=\'确定\']').click()

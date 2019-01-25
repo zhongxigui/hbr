@@ -30,11 +30,6 @@ class online_store(unittest.TestCase,object):
         startMethod.action_Xpath(self,Shop['添加厂房xp'],'click')
         titleMethod.Photo(self,2)
         startMethod.action_Id(self,Shop['标题id'],titleMethod.duQu_Exlce(self,'其他',1,0))
-        startMethod.action_Id(self,Shop['区域id'],'click')
-        startMethod.action_Xpath(self,Shop['区域-其他城市xp'],'click')
-        startMethod.action_Xpath(self,Shop['南京市xp'], 'click')
-        startMethod.action_Xpath(self,Shop['玄武xp'], 'click')
-        startMethod.action_Xpath(self,Shop['梅园xp'], 'click')
         startMethod.action_Id(self,Shop['厂房结构id'],'click')
         startMethod.action_Xpath(self,Shop['标准厂房xp'], 'click')
         startMethod.action_Id(self,Shop['楼层id'], 'click')
@@ -44,11 +39,11 @@ class online_store(unittest.TestCase,object):
         startMethod.action_Id(self,Shop['租赁类别id'], 'click')
         startMethod.action_Xpath(self,Shop['租xp'], 'click')
         startMethod.action_Xpath(self,Shop['下一步xp'],'click')
-        startMethod.action_Xpath(self,Shop['总面积xp'],titleMethod.duQu_Exlce(self,'其他',2,0))
+        startMethod.action_Xpath(self,Shop['总面积xp'],titleMethod.duQu_Exlce(self,'其他',1,1))
         startMethod.action_Xpath(self,Shop['厂房价格xp'],'click')
         startMethod.action_Xpath(self,Shop['面议xp'], 'click')
         startMethod.action_Xpath(self,Shop['确定xp'], 'click')
-        startMethod.action_Xpath(self,Shop['厂房概况xp'],titleMethod.duQu_Exlce(self,'其他',3,0))
+        startMethod.action_Xpath(self,Shop['厂房概况xp'],titleMethod.duQu_Exlce(self,'其他',1,2))
         startMethod.action_Xpath(self,Shop['发布xp'],'click')
         startMethod.action_Xpath(self,Shop['确定xp'],'click')
         try:
@@ -89,7 +84,7 @@ class online_store(unittest.TestCase,object):
 def suite():
      #定义一个单元测试容器
     suiteTest = unittest.TestSuite()
-    # suiteTest.addTest(online_store('test01'))
+    suiteTest.addTest(online_store('test01'))
     suiteTest.addTest(online_store('test02'))
 
     return suiteTest

@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="180c6ae1-68ce-475f-be18-8e7a0a5dbfd3" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hbr_test_case/test_case003_online_store.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hbr_test_case/test_case004_add_houses.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_exlce_case/denglu_excel.xls" afterPath="$PROJECT_DIR$/hbr_exlce_case/denglu_excel.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_case/test_case001_Login.py" afterPath="$PROJECT_DIR$/hbr_test_case/test_case001_Login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_case/test_case002_address_list.py" afterPath="$PROJECT_DIR$/hbr_test_case/test_case002_address_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_case/test_case003_online_store.py" afterPath="$PROJECT_DIR$/hbr_test_case/test_case003_online_store.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py" afterPath="$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/test.log" afterPath="$PROJECT_DIR$/hbr_test_log/hbr_test_logfile/test.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hbr_test_method/method.py" afterPath="$PROJECT_DIR$/hbr_test_method/method.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hbr_test_case/test_case002_address list.py" afterPath="$PROJECT_DIR$/hbr_test_case/test_case002_address_list.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,18 +30,19 @@
     <SUITE FILE_PATH="coverage/hbr$test.coverage" NAME="file-test_case001_Login.py Coverage Results" MODIFIED="1546498930599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$.coverage" NAME="file_test_ddt_josn Coverage Results" MODIFIED="1547710867762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_toast.coverage" NAME="Unittests in toast Coverage Results" MODIFIED="1547389222234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_case004_add_houses.coverage" NAME="Unittests in test_case004_add_houses Coverage Results" MODIFIED="1548404189053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1546510252845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hbr$test_HTMLTestReportCN.coverage" NAME="test_HTMLTestReportCN Coverage Results" MODIFIED="1546482799525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/HTMLTestRunnerCN-master/python3x" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_case002_address_list.coverage" NAME="Unittests in test_case002_address list Coverage Results" MODIFIED="1548150312406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$hbr_test_config.coverage" NAME="hbr_test_config Coverage Results" MODIFIED="1548300496380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_conf/hbr_test_env" />
     <SUITE FILE_PATH="coverage/hbr$hbr_test_logmethod.coverage" NAME="hbr_test_logmethod Coverage Results" MODIFIED="1547049945409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_log" />
-    <SUITE FILE_PATH="coverage/hbr$test_case001_Login_py.coverage" NAME="test_case001_Login.py Coverage Results" MODIFIED="1547795218500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_111.coverage" NAME="Unittests in 111 Coverage Results" MODIFIED="1548153070166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$test_case001_Login_py.coverage" NAME="test_case001_Login.py Coverage Results" MODIFIED="1548384443986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_toast_test__1_.coverage" NAME="Unittests in xapth_test Coverage Results" MODIFIED="1547478673152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$111__3_.coverage" NAME="111 (3) Coverage Results" MODIFIED="1547370357946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_method" />
     <SUITE FILE_PATH="coverage/hbr$file_test.coverage" NAME="file-test Coverage Results" MODIFIED="1547044025110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hbr$111.coverage" NAME="111 Coverage Results" MODIFIED="1547369596579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_conf/hbr_test_env" />
-    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_case002_address_list__1_.coverage" NAME="Unittests in test_case002_address_list (1) Coverage Results" MODIFIED="1548208908529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_case002_address_list__1_.coverage" NAME="Unittests in test_case002_address_list (1) Coverage Results" MODIFIED="1548383109791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_case001_Login.coverage" NAME="test_case001_Login.py Coverage Results" MODIFIED="1546164708744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$file_toast.coverage" NAME="file_toast Coverage Results" MODIFIED="1547476665731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$11.coverage" NAME="11 Coverage Results" MODIFIED="1548136233915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -48,31 +50,46 @@
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_ddt_josn.coverage" NAME="Unittests in test_ddt_josn Coverage Results" MODIFIED="1547778423751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$111__1_.coverage" NAME="111 (1) Coverage Results" MODIFIED="1547366056502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_log" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_test__1_.coverage" NAME="Unittests in test (1) Coverage Results" MODIFIED="1547050296865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
-    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_case003_online_store.coverage" NAME="Unittests in test_case003_online_store Coverage Results" MODIFIED="1548301154418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
+    <SUITE FILE_PATH="coverage/hbr$Unittests_in_test_case003_online_store.coverage" NAME="Unittests in test_case003_online_store Coverage Results" MODIFIED="1548380611824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
     <SUITE FILE_PATH="coverage/hbr$Unittests_in_xapth_test__1_.coverage" NAME="Unittests in xapth_test (1) Coverage Results" MODIFIED="1547483551322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbr_test_case" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hbr" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_case003_online_store.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case003_online_store.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-418">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="383">
+              <caret line="26" column="57" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="57" />
+              <folding>
+                <element signature="e#23#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_case002_address_list.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case002_address_list.py">
+      <file leaf-file-name="test_case004_add_houses.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case004_add_houses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="682">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <element signature="e#23#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,38 +97,18 @@
       <file leaf-file-name="method.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hbr_test_method/method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+            <state relative-caret-position="866">
+              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_testCase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_case/all_testCase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hbr_test_logmethod.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hbr_test_log/hbr_test_logmethod.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hbr_test_config.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hbr_test_config.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="146" column="42" lean-forward="false" selection-start-line="146" selection-start-column="42" selection-end-line="146" selection-end-column="42" />
+            <state relative-caret-position="732">
+              <caret line="159" column="57" lean-forward="true" selection-start-line="159" selection-start-column="57" selection-end-line="159" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -167,10 +164,11 @@
         <option value="$PROJECT_DIR$/hbr_test_case/111..py" />
         <option value="$PROJECT_DIR$/hbr_test_case/111.py" />
         <option value="$PROJECT_DIR$/hbr_test_case/test_case002_address list.py" />
-        <option value="$PROJECT_DIR$/hbr_test_case/test_case001_Login.py" />
         <option value="$PROJECT_DIR$/hbr_test_case/test_case002_address_list.py" />
-        <option value="$PROJECT_DIR$/hbr_test_method/method.py" />
+        <option value="$PROJECT_DIR$/hbr_test_case/test_case001_Login.py" />
         <option value="$PROJECT_DIR$/hbr_test_case/test_case003_online_store.py" />
+        <option value="$PROJECT_DIR$/hbr_test_case/test_case004_add_houses.py" />
+        <option value="$PROJECT_DIR$/hbr_test_method/method.py" />
         <option value="$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py" />
       </list>
     </option>
@@ -313,8 +311,8 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lkkm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -322,30 +320,7 @@
       <recent name="C:\Users\57874\Desktop\hbr" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_case003_online_store">
-    <configuration default="false" name="Unittests in test_case002_address_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hbr_test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hbr" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\github\hbr\hbr_test_case\test_case002_address_list.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_case004_add_houses">
     <configuration default="false" name="Unittests in 111" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,6 +397,29 @@
       <module name="hbr" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hbr_test_case/test_case003_online_store.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_case004_add_houses" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hbr_test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hbr" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hbr_test_case/test_case004_add_houses.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -786,19 +784,19 @@
       <item index="4" class="java.lang.String" itemvalue="Python.file-test" />
       <item index="5" class="java.lang.String" itemvalue="Python.file11" />
       <item index="6" class="java.lang.String" itemvalue="Python tests.test_case001_Login.py" />
-      <item index="7" class="java.lang.String" itemvalue="Python tests.Unittests in test_case002_address_list" />
-      <item index="8" class="java.lang.String" itemvalue="Python tests.Unittests in 111" />
-      <item index="9" class="java.lang.String" itemvalue="Python tests.Unittests in test_case002_address_list (1)" />
-      <item index="10" class="java.lang.String" itemvalue="Python.hbr_test_config" />
-      <item index="11" class="java.lang.String" itemvalue="Python tests.Unittests in test_case003_online_store" />
+      <item index="7" class="java.lang.String" itemvalue="Python tests.Unittests in 111" />
+      <item index="8" class="java.lang.String" itemvalue="Python tests.Unittests in test_case002_address_list (1)" />
+      <item index="9" class="java.lang.String" itemvalue="Python.hbr_test_config" />
+      <item index="10" class="java.lang.String" itemvalue="Python tests.Unittests in test_case003_online_store" />
+      <item index="11" class="java.lang.String" itemvalue="Python tests.Unittests in test_case004_add_houses" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_case003_online_store" />
-        <item index="1" class="java.lang.String" itemvalue="Python.hbr_test_config" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_case002_address_list (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in 111" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_case002_address_list" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_case004_add_houses" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_case002_address_list (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_case003_online_store" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hbr_test_config" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in 111" />
       </list>
     </recent_temporary>
   </component>
@@ -816,35 +814,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.23 at 16h 26m 01s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 15h 25m 52s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.23 at 16h 29m 45s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 15h 26m 28s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.23 at 16h 33m 13s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 15h 28m 37s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.24 at 11h 07m 36s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 15h 30m 13s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.24 at 11h 09m 26s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 15h 35m 06s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.24 at 11h 10m 50s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 15h 49m 13s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.24 at 11h 30m 45s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 15h 56m 00s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.24 at 11h 32m 31s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 15h 58m 49s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.24 at 11h 34m 48s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 16h 12m 48s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case003_online_store - 2019.01.24 at 11h 40m 54s.xml">
-      <configuration name="Unittests in test_case003_online_store" configurationId="tests" />
+    <history-entry file="Unittests_in_test_case004_add_houses - 2019.01.25 at 16h 16m 57s.xml">
+      <configuration name="Unittests in test_case004_add_houses" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -858,9 +856,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -885,7 +883,7 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -894,16 +892,16 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275488" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275488" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35357916" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22867803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35357916" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,12 +912,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/427329943/time.py" />
     <entry file="file://$PROJECT_DIR$/hbr_test_result/20190103144509test_caseall.html" />
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -957,13 +954,6 @@
     <entry file="file://$PROJECT_DIR$/hbr_test_case/xapth_test.py" />
     <entry file="file://$PROJECT_DIR$/hbr_test_case/json.py" />
     <entry file="file://$PROJECT_DIR$/hbr_test_case/test_ddt_josn.py" />
-    <entry file="file://$PROJECT_DIR$/hbr_exlce_case/ddt_json.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/mylog.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1101,57 +1091,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case001_Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_log/hbr_test_logmethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all_case/all_testCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="483">
           <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_method/method.py">
+    <entry file="file://$PROJECT_DIR$/hbr_test_log/hbr_test_logmethod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        <state relative-caret-position="130">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py">
+    <entry file="file://$PROJECT_DIR$/hbr_exlce_case/ddt_json.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="146" column="42" lean-forward="false" selection-start-line="146" selection-start-column="42" selection-end-line="146" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case003_online_store.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="46">
+          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case002_address_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="391">
+          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case001_Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_test_method/method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case003_online_store.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="57" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_test_case/test_case004_add_houses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbr_test_conf/hbr_test_env/hbr_test_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="159" column="57" lean-forward="true" selection-start-line="159" selection-start-column="57" selection-end-line="159" selection-end-column="57" />
           <folding />
         </state>
       </provider>

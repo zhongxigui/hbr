@@ -1,0 +1,3 @@
+[2019-01-25 10:08:30,149](INFO)test_case002_address_list.py : >>>点击控件：com.zhaoshang800.partner.debug:id/home_contacts
+[2019-01-25 10:08:32,137](INFO)test_case002_address_list.py : >>>点击控件：//android.widget.TextView[@text='第一区域']
+[2019-01-25 10:08:37,224](INFO)test_case002_address_list.py : >>>点击控件：com.zhaoshang800.partner.debug:id/view_iv_back

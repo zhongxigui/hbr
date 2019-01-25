@@ -60,8 +60,7 @@ class startMethod(object):
 
     '''退出登录'''
     def logout(self):
-        startMethod.element_location(self,By.ID,tabbar['我的坐标'],4)
-        #self.driver.find_element_by_xpath("//android.widget.TextView[@text='我的']").click()  底部导航不行使用id xpath定位 暂时用tap
+        startMethod.element_location(self,By.ID,tabbar['我的坐标id'],4)
         titleMethod.toachSweip(self, 0.5, 0.9, 0.5, 0.2)
         self.driver.find_element_by_xpath("//android.widget.TextView[@text='退出登录']").click()
         startMethod.action_Id(self, my['确认退出id'], 'click')
@@ -73,6 +72,43 @@ class startMethod(object):
         self.driver.find_element_by_id(login['密码id']).set_text(password)
         self.logger.info('输入密码为{}'.format(password))
         self.driver.find_element_by_id(login['登录按钮id']).click()
+
+
+    '''根据屏幕大小手势解屏'''
+    def touchaction(self,xp):
+        action = TouchAction(self.driver)
+        # start_height = self.driver.get_window_size()['height'] #屏幕高度
+        # start_width = self.driver.get_window_size()['width'] #屏幕宽度度
+        element = self.driver.find_element_by_xpath(xp)#元素控件
+        locations = element.location#元素位置
+        wide_height=element.size#元素宽高
+        gongge = {} #给每个圆圈编号从左到右1，2，3依次第二行4，5，6第三行7，8，9
+        gongge[1] = (None, locations["x"] + wide_height["width"] / 6, locations["y"] + wide_height["height"] / 6)
+        gongge[2] = (None, locations["x"] + wide_height["width"] / 6 * 3, locations["y"] + wide_height["height"] / 6)
+        gongge[3] = (None, locations["x"] + wide_height["width"] / 6 * 5, locations["y"] + wide_height["height"] / 6)
+        gongge[4] = (None, locations["x"] + wide_height["width"] / 6, locations["y"] + wide_height["height"] / 6 * 3)
+        gongge[5] = (None, locations["x"] + wide_height["width"] / 6 * 3, locations["y"] + wide_height["height"] / 6 * 3)
+        gongge[6] = (None, locations["x"] + wide_height["width"] / 6 * 5, locations["y"] + wide_height["height"] / 6 * 3)
+        gongge[7] = (None, locations["x"] + wide_height["width"] / 6, locations["y"] + wide_height["height"] / 6 * 5)
+        gongge[8] = (None, locations["x"] + wide_height["width"] / 6 * 3, locations["y"] + wide_height["height"] / 6 * 5)
+        gongge[9] = (None, locations["x"] + wide_height["width"] / 6 * 5, locations["y"] + wide_height["height"] / 6 * 5)
+
+        #这里有个坑，press里面的参数是元素的坐标位置，但是move_to里面的是相对于前面一个元素的偏移位置。所以需要单独写一个函数，计算偏移量。
+        def pianyi(a=1, b=2):
+            '''计算从a点到b点的偏移量'''
+            g1 = gongge[a]
+            g2 = gongge[b]
+            r = (None, g2[1] - g1[1], g2[2] - g1[2])
+            return r
+
+        action.press(*gongge[1]).wait(300).move_to(*pianyi(1,4)).wait(300).move_to(*pianyi(4,7)).wait(
+            300).move_to(*pianyi(7,8)).wait(300).move_to(*pianyi(8,9)).release().perform()
+
+
+
+
+
+
 
     '''使用find_ements(by,value)定位
     By.ID   相当于by_id

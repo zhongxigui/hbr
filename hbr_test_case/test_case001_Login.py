@@ -14,14 +14,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from appium.webdriver.common.touch_action import TouchAction #导入Touch Action类
 
 
-def setUpModule():
-    os.system('start startAppiumServer.bat')  # 启动appium服务
-    time.sleep(8)  # 等待appium服务启动完毕
-    print("test module star >>>>>>>>>>>>>>")
-def tearDownModule():
-    os.system('start stopAppiumServer.bat') #关闭appium服务
-    print("test module end >>>>>>>>>>>>>>")
-
+# def setUpModule():
+#     os.system('start startAppiumServer.bat')  # 启动appium服务
+#     time.sleep(8)  # 等待appium服务启动完毕
+#     print("test module star >>>>>>>>>>>>>>")
+# def tearDownModule():
+#     os.system('start stopAppiumServer.bat') #关闭appium服务
+#     print("test module end >>>>>>>>>>>>>>")
 
 @ddt
 class Test_login(unittest.TestCase,object):
@@ -56,20 +55,17 @@ class Test_login(unittest.TestCase,object):
                 self.driver.find_element_by_id(login['输入验证码id']).set_text(verification)
                 self.driver.find_element_by_id(login['验证码确定id']).click()
                 startMethod.logout(self)
+                break
 
     def test02(self):
         pass
 
-
-    def test03(self):
-        pass
 
 #添加Suite
 def suite():
      #定义一个单元测试容器
     suiteTest = unittest.TestSuite()
     suiteTest.addTest(Test_login('test01'))
-    suiteTest.addTest(Test_login('test02'))
     suiteTest.addTest(Test_login('test02'))
     return suiteTest
 

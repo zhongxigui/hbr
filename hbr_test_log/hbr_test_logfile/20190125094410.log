@@ -1,0 +1,4 @@
+[2019-01-25 09:44:38,715](INFO)test_case003_online_store.py : >>>点击控件：//android.widget.ImageView[@index='2']
+[2019-01-25 09:44:38,963](INFO)test_case003_online_store.py : >>>点击控件：//android.widget.TextView[@text='删除房源']
+[2019-01-25 09:44:40,028](INFO)test_case003_online_store.py : >>>点击控件：//android.widget.TextView[@text='确定']
+[2019-01-25 09:44:43,845](INFO)test_case003_online_store.py : toast找到成功

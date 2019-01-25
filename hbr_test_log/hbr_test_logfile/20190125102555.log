@@ -1,0 +1,5 @@
+[2019-01-25 10:26:14,878](INFO)test_case002_address_list.py : >>>点击控件：com.zhaoshang800.partner.debug:id/home_contacts
+[2019-01-25 10:26:20,334](INFO)test_case002_address_list.py : >>>点击控件：//android.widget.TextView[@text='第一区域']
+[2019-01-25 10:26:24,168](INFO)test_case002_address_list.py : >>>点击控件：com.zhaoshang800.partner.debug:id/view_iv_back
+[2019-01-25 10:26:27,543](INFO)test_case002_address_list.py : >>>点击控件：com.zhaoshang800.partner.debug:id/view_iv_back
+[2019-01-25 10:26:27,681](INFO)test_case002_address_list.py : >>>点击控件：com.zhaoshang800.partner.debug:id/tv_my_follow

@@ -1,5 +1,6 @@
 import os,re
 #pc电脑路径
+#apkPath=r'D:\bao\prepartner.apk'
 apkPath=r'D:\bao\devpartner.apk'
 #直接获取设备名称
 deviceName=re.findall('(.+?)\t',os.popen('adb devices').readlines()[1])[0]
@@ -44,6 +45,7 @@ login['输入验证码id']=config['appPackage']+':id/verification'
 login['验证码确定id']=config['appPackage']+':id/check_sure'
 
 
+
 '''底部导航'''
 global tabbar
 tabbar = {}
@@ -54,12 +56,15 @@ tabbar['圈子坐标id']=config['appPackage']+':id/tv_tab_name'
 tabbar['我的坐标id']=config['appPackage']+':id/tv_tab_name'
 
 
+
 '''首页界面'''
 global home
 home = {}
 home['搜索栏id']=config['appPackage']+':id/home_search'
 home['通知公告xpath']='通知公告'
 home['通讯录id']=config['appPackage']+':id/home_contacts'
+
+
 
 '''通讯录'''
 global addresslist
@@ -68,8 +73,11 @@ addresslist['请输入经纪人名字和/短号id']= config['appPackage']+':id/l
 addresslist['我的关注id']=config['appPackage']+':id/tv_my_follow'
 addresslist['第一区域xp']='//android.widget.TextView[@text=\'第一区域\']'
 addresslist['请输入经纪人姓名短号xp']='//android.widget.TextView[@text=\'请输入经纪人姓名/短号\']'
+addresslist['请输入经纪人姓名短号1xp']='//android.widget.EditText[@text=\'请输入经纪人姓名/短号\']'
 
-'''网店'''
+
+
+'''网店模块'''
 global Shop
 Shop = {}
 Shop['添加按钮id']=config['appPackage']+':id/view_tv_right_text'
@@ -85,6 +93,9 @@ Shop['区域-其他城市xp']='//android.widget.TextView[@text=\'其他城市\']
 Shop['南京市xp']='//android.widget.TextView[@text=\'南京市\']'
 Shop['玄武xp']='//android.widget.TextView[@text=\'玄武\']'
 Shop['梅园xp']='//android.widget.TextView[@text=\'梅园\']'
+Shop['北京xp']='//android.widget.TextView[@text=\'北京\']'
+Shop['东城xp']='//android.widget.TextView[@text=\'东城\']'
+Shop['东华门xp']='//android.widget.TextView[@text=\'东华门\']'
 Shop['厂房结构id']=config['appPackage']+':id/tv_structure_choose'
 Shop['标准厂房xp']='//android.widget.TextView[@text=\'标准厂房\']'
 Shop['楼层id']=config['appPackage']+':id/tv_floor_choose'
@@ -101,7 +112,6 @@ Shop['确定xp']='//android.widget.TextView[@text=\'确定\']'
 Shop['厂房概况xp']='//android.widget.EditText[@text=\'请勿输入手机号或华夏相关的信息，否则可能此条会被审核删除\']'
 Shop['发布xp']='//android.widget.TextView[@text=\'发布\']'
 Shop['确定xp']='//android.widget.TextView[@text=\'确定\']'
-
 Shop['厂房图片id']=config['appPackage']+':id/iv_item_factory_logo'
 Shop['更多xp']='//android.widget.ImageView[@index=\'2\']'
 Shop['删除房源xp']='//android.widget.TextView[@text=\'删除房源\']'
@@ -109,17 +119,17 @@ Shop['删除房源xp']='//android.widget.TextView[@text=\'删除房源\']'
 
 
 
-
-
-
-
-
-'''业务界面'''
+'''业务模块'''
 global business
 business={}
-business['添加盘源xpath']='添加盘源'
-business['性别id']=config['appPackage']+':id/rb_man'
-business['提交id']=config['appPackage']+':id/tv_submit'
+business['添加盘源xp']='//android.widget.TextView[@text=\'添加盘源\']'
+business['我的盘源xp']='//android.widget.TextView[@text=\'我的盘源\']'
+business['搜索盘源xp']='//android.widget.TextView[@text=\'搜索盘源\']'
+business['报备客户xp']='//android.widget.TextView[@text=\'报备客户\']'
+business['我的客户xp']='//android.widget.TextView[@text=\'我的客户\']'
+business['成交报告xp']='//android.widget.TextView[@text=\'成交报告\']'
+
+
 
 '''我的界面'''
 global my
@@ -127,6 +137,7 @@ my={}
 my['设置text']='设置'
 my['退出登录text']='退出登录'
 my['确认退出id']=config['appPackage']+':id/tv_new_dialog_right'
+
 
 
 '''路径'''
@@ -137,6 +148,7 @@ paths['上一级']=os.path.abspath(os.path.dirname(os.getcwd()) + os.path.sep + 
 paths['上上一级']=os.path.abspath(os.path.dirname(os.getcwd()) + os.path.sep + "..")
 
 
+
 '''公共按钮'''
 global commonality
 commonality={}
@@ -145,3 +157,4 @@ commonality['点击相机id']=config['appPackage']+':id/iv_pic_add'
 commonality['选择相册xp']='//android.widget.TextView[@text=\'相册\']'
 commonality['选择图片id']=config['appPackage']+':id/check_box'
 commonality['完成id']=config['appPackage']+':id/album_menu_finish'
+commonality['解锁封面xp']='//android.view.View[@index=\'2\']'
